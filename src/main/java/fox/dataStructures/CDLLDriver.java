@@ -7,16 +7,9 @@ import java.util.Scanner;
  */
 public class CDLLDriver {
 
-    /**
-     * Default Constructor
-     * This constructor is used for handling the events when a user
-     * enters a number that is not in the list.
-     */
     // Create instance of CDLinkedList class
     static CDLinkedList<Integer> list = new CDLinkedList();
 
-
-    // Get input from the user
     static Scanner input = new Scanner(System.in);
 
     // Hold user input
@@ -88,7 +81,7 @@ public class CDLLDriver {
     }
 
     /**
-     * The getSearch method asks the user for a number to search the list for.
+     * The getSearch method asks the user for a number to search.
      * @return number to search for
      */
     public static Integer getSearch() {
